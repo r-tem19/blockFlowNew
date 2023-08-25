@@ -5,7 +5,9 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "add": "^2.0.6",
     "axios": "^1.4.0",
+    "http-proxy-middleware": "^2.0.6",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-scripts": "3.1.2",
@@ -13,7 +15,8 @@
     "rete-area-plugin": "0.2.1",
     "rete-connection-plugin": "0.8.3",
     "rete-react-render-plugin": "0.2.0",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -24,7 +27,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://demo142.grissoft.com.ua",
   "browserslist": [
     ">0.2%",
     "not dead",
