@@ -1,0 +1,55 @@
+@import "utils/utils";
+
+@import "modules/helpers";
+
+// html {
+//   --scroll-behavior: smooth !important;
+//   scroll-behavior: smooth !important;
+// }
+
+// html,
+// body {
+//   height: 100%;
+// }
+
+// html,
+// body {
+//   overflow-x: hidden;
+//   overflow-y: auto;
+// }
+
+body {
+  // position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: $color-172841;
+  background: $color-F3F3F3;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+
+  .header {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+
+  &__content {
+    width: 80% !important;
+    height: 100vh;
+  }
+}
+
+.sidebar {
+  background: fade-out($color-172841, 0.8);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
