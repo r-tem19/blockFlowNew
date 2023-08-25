@@ -137,20 +137,20 @@ export async function createEditor(container) {
   editor.on(
     "process nodecreated noderemoved connectioncreated connectionremoved",
     async () => {
-      console.log("process");
+      // console.log("process");
       compile();
       // await engine.abort();
       // await engine.process(editor.toJSON());
 
-      console.log(editor.toJSON());
+      // console.log(editor.toJSON());
     }
   );
 
   try {
     const res = await axios.get(`/json/api/get.php?id=1`);
 
-    console.log("response");
-    console.log(res.data);
+    // console.log("response");
+    // console.log(res.data);
 
     editor.fromJSON(res.data).then(() => {
       // arrangeNodes();

@@ -6,8 +6,8 @@ export class MyNode extends Node {
     const { editor, node, bindSocket, bindControl } = this.props;
     const { outputs, controls, inputs, selected } = this.state;
 
-    console.log("node");
-    console.log(node);
+    // console.log("node");
+    // console.log(node);
 
     const removeNodeHandler = (el) => {
       el.preventDefault();
