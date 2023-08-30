@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blockFlowNew/static/css/main.c75a54f4.chunk.css",
+    "main.css": "/blockFlowNew/static/css/main.42fd80f0.chunk.css",
     "main.js": "/blockFlowNew/static/js/main.067b8652.chunk.js",
     "main.js.map": "/blockFlowNew/static/js/main.067b8652.chunk.js.map",
     "runtime-main.js": "/blockFlowNew/static/js/runtime-main.d761cd58.js",
@@ -8,9 +8,9 @@
     "static/js/2.a0e1677e.chunk.js": "/blockFlowNew/static/js/2.a0e1677e.chunk.js",
     "static/js/2.a0e1677e.chunk.js.map": "/blockFlowNew/static/js/2.a0e1677e.chunk.js.map",
     "index.html": "/blockFlowNew/index.html",
-    "precache-manifest.5a5edf29cf5b8b480a6ed2857bd12cbb.js": "/blockFlowNew/precache-manifest.5a5edf29cf5b8b480a6ed2857bd12cbb.js",
+    "precache-manifest.aaf473a259c53bd15a83de90fe307480.js": "/blockFlowNew/precache-manifest.aaf473a259c53bd15a83de90fe307480.js",
     "service-worker.js": "/blockFlowNew/service-worker.js",
-    "static/css/main.c75a54f4.chunk.css.map": "/blockFlowNew/static/css/main.c75a54f4.chunk.css.map",
+    "static/css/main.42fd80f0.chunk.css.map": "/blockFlowNew/static/css/main.42fd80f0.chunk.css.map",
     "static/media/globals.scss": "/blockFlowNew/static/media/save-icon.a3026632.svg"
   }
 }
